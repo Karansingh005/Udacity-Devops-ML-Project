@@ -1,5 +1,11 @@
 <include a CircleCI status badge, here>
 
+## Docker Image Link
+Click the link to follow the Docker image of this repository. Click the link: https://hub.docker.com/r/karansingh005/demolocal
+
+Or, type the following commands on your terminal, with Docker installed:
+`docker pull karansingh005/demolocal`
+
 ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
