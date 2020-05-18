@@ -5,11 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+ dockerpath=docker-username/demolocal
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 
+#Optional step, if docker username is not there in actual docker path
+docker tag docker $dockerpath 
 # Step 3:
 # Push image to a docker repository
+docker push $dockerpath
