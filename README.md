@@ -1,4 +1,4 @@
-[![Karansingh005](https://circleci.com/gh/Karansingh005/Udacity-Devops-ML-Project?style=svg)](https://circleci.com/gh/Karansingh005/Udacity-Devops-ML-Project)
+[![Karansingh005](https://circleci.com/gh/Karansingh005/Udacity-Devops-ML-Project?style=svg)]
 
 ## Docker Image Link
 Click the link to follow the Docker image of this repository. Click the link: https://hub.docker.com/r/karansingh005/demolocal
