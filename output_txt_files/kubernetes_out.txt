@@ -1,1 +1,18 @@
-<paste log output from Kubernetes-mediated prediction, here>
+Karans-Air:Udacity-Devops-ML-Project daljitsingh$ kubectl get pods
+NAME                        READY   STATUS    RESTARTS   AGE
+kubedemo                    1/1     Running   0          18s
+kubedemo-7f547dcb65-8bpw7   1/1     Running   0          13m
+Karans-Air:Udacity-Devops-ML-Project daljitsingh$ kubectl port-forward kubedem8000:80
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+-----------------------------
+
+Karans-Air:Udacity-Devops-ML-Project daljitsingh$ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
