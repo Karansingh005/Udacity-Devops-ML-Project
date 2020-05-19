@@ -1,4 +1,4 @@
-![CircleCI](https://circleci.com/gh/Karansingh005/Udacity-Devops-ML-Project/tree/master.svg?style=svg)
+[![CircleCI](https://circleci.com/gh/Karansingh005/Udacity-Devops-ML-Project/tree/master.svg?style=svg)](https://circleci.com/gh/Karansingh005/Udacity-Devops-ML-Project/tree/master)
 
 ## Docker Image Link
 Click the link to follow the Docker image of this repository. Click the link: https://hub.docker.com/r/karansingh005/demolocal
